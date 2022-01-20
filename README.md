@@ -1,1 +1,1 @@
-# php-mysql-basic-cms
+# PHP MySQL Sample Application
