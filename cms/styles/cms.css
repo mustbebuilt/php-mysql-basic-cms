@@ -1,0 +1,86 @@
+body{
+	font-family:helvetica, arial, sans-serif;	
+}
+#container{
+	width:1200px;
+	border:1px solid #666;
+	border-radius:6px;
+	box-shadow: 4px 4px 2px 0px rgba(0,0,0,0.5);
+	padding:15px;
+	margin:5px auto;
+}
+header{
+	border-bottom:1px solid #ccc;	
+	margin:10px;	
+}
+h1{
+	font-size: 1.2em;
+    letter-spacing: 3px;
+    font-weight: 100;	
+}
+header p a{
+	text-decoration:none;	
+	color:#999;
+}
+header p a:hover{
+	text-decoration:underline;	
+	color:#66CC33;
+}
+section{
+	margin:10px;	
+}
+table.tableList{
+	border-collapse:collapse;
+    padding: 0px;
+	border:1px solid #999;
+	width:80%;
+	margin:5px auto;
+}
+table.tableList td{
+	margin:0;
+	padding:5px;	
+}
+table.tableList tr:first-child{
+	border:1px solid #999;
+	background-color:#000;
+	color:#fff;
+}
+table.tableList tr:first-child th{
+	padding:10px;	
+	text-align:left;
+}
+tr:nth-of-type(odd){
+    background-color:#C5C5C5;
+}
+.rightImg{
+	float:right;
+	padding:20px;	
+}
+.indent label, span.indent{
+	display:block;
+	width:150px;
+	float:left;
+}
+.indent input:focus{
+	background-color:#CFC;
+}
+input[type=radio]{
+	margin-right:20px;
+}
+input[value="Delete"]{
+	background-color:#F69;
+	font-size:18px;
+	width:150px;
+}
+input[value="Save"]{
+	background-color:#CFC;	
+	font-size:18px;
+	width:150px;
+}
+
+footer{
+	border-top:1px solid #ccc;	
+	font-size:10px;
+	text-align:center;	
+	margin:10px;	
+}
